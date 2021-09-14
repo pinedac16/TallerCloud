@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/Users/c_pin/Documents/Cloud/configData
+  security:
+    user:
+      name: admin
+      password: admin
+server:
+  port: 7010
